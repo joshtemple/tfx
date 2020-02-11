@@ -15,7 +15,8 @@
 *   Introduced awareness of chief worker to Trainer's executor, in case running
     in distributed training cluster.
 *   Added a Chicago Taxi example with native Keras.
-
+*   Added support for automatically downloading input data to files and
+    uploading output data from files to container-based components.
 ## Bug fixes and other changes
 *   Added --skaffold_cmd flag when updating a pipeline for kubeflow in CLI.
 *   Changed python_version to 3.7 when using TF 1.15 and later for Cloud AI Platform Prediction.
